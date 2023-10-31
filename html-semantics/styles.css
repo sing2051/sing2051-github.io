@@ -1,0 +1,41 @@
+
+
+body {
+    font-family: Arial, sans-serif; 
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: #CCCCCC; 
+}
+
+.site-title {
+    color: rgb(0, 255, 179); 
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li:nth-child(odd) {
+    background-color: #23a9bb; 
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #FFA500;
+    border: 1px solid #333; 
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #FFD700; /* Chkground color on hover/focus */
+}
